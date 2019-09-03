@@ -1,6 +1,6 @@
 ---
 title: Wrath of the dragon god
-date: 2018-11-10 20:08:08 -0700
+date: 2018-11-10T20:08:08Z
 slug: wrath-of-the-dragon-god
 ---
 

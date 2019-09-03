@@ -1,6 +1,6 @@
 ---
 title: Justice League
-date: 2017-08-14 20:08:08 -0700
+date: 2017-08-14T20:08:08Z
 slug: justice-league
 ---
 
