@@ -4,51 +4,64 @@ items:
     jobTitle: Founder/CEO
     twitter: rchrdblakesley
     linkedin: richard-blakesley-09b5ba
-    image: 
+    image: Richard-Blakesley.jpeg
   - name: Alistair Hancock
     jobTitle: CTO
     twitter: alistairhancock
     linkedin: alistairhancock
-    image: 
+    image: Alistair-Hancock.jpg
   - name: Viv Parry
     jobTitle: Chair
     twitter: vivjparry
     linkedin: vivjparry
-    image: 
+    image: Viv-Parry.jpg
+
   - name: Naomi Timperley
     jobTitle: NED
     twitter: naomitimperley
     linkedin: naomitimperley
-    image: 
+    image: Naomi-Timperley.jpg
+
   - name: Shahryar Barati
     jobTitle: MD Autopilot
     twitter: 
     linkedin: shahryar-barati
-    image: 
+    image: Shahryar-Barati.png
+
   - name: Lucy Standing
     jobTitle: Advisor
     twitter: 
     linkedin: lucystanding
-    image: 
+    image: Lucy-Standing.jpg
+
   - name: Nick Page
     jobTitle: Advisor
     twitter: 
     linkedin: nick-page-b0a8a5
-    image: 
+    image: Nick-Page.jpg
+
   - name: Rakesh Sharma OBE
+    jobTitle: Advisor
+    twitter: 
+    linkedin: johnwakefield1
+    image: Rakesh-Sharma.jpg
+    
+  - name: John Wakefield
     jobTitle: Southwest
     twitter: 
     linkedin: johnwakefield1
-    image: 
+    image: John-Wakefield.jpg
+
   - name: Paul Lancaster
     jobTitle: Northeast
     twitter: lordlancaster
     linkedin: lordlancaster
-    image: 
+    image: Paul-Lancaster.jpeg
+
   - name: Stuart Brown
     jobTitle: Yorkshire
     twitter: GGEnergyUK
     linkedin: stuartbrown01
-    image: 
+    image: Stuart-Brown.jpg
     
  

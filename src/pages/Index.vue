@@ -2,6 +2,7 @@
   <Layout>
     <Header/>
     <Hero/>
+    <Team/>
     <Portfolio/>
     <About/>
     <Blog/>
@@ -13,6 +14,7 @@
 <script>
   import Header from '~/components/Header.vue';
   import Hero from '~/components/Hero.vue';
+  import Team from '~/components/Team.vue';
   import Portfolio from '~/components/Portfolio.vue';
   import About from '~/components/About.vue';
   import Blog from '~/components/Blog.vue';
@@ -23,6 +25,7 @@
     components: { 
       Header,
       Hero,
+      Team,
       Portfolio,
       About,
       Blog,
