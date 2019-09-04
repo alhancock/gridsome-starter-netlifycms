@@ -51,13 +51,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
 
-      - name: "hero2"
-        label: "Hero2"
-        file: "src/data/Hero2.yml"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          
       - name: "portfolio"
         label: "Portfolio"
         file: "src/data/Portfolio.yml"
