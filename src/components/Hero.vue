@@ -1,7 +1,13 @@
 <template>
   <div class="Hero__Content">
 		<h1>{{ Hero.title }}</h1>
-		<p>{{ Hero.description }}</p>
+		<ul>
+			 <li v-for="item in Hero.items" :key="item.item">
+				 {{item.item}}			
+      		</li>
+
+		</ul>		
+		
     <ul class="Hero__Content__Icons">
       <li v-for="item in SocialMedia.items" :key="item.name">
         <a :href="item.link">

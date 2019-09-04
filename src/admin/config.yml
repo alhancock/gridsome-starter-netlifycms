@@ -35,7 +35,7 @@ collections:
             widget: "list"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Description", name: "description", widget: "markdown" }
 
       - name: "contact"
         label: "Contact"
@@ -51,6 +51,13 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
 
+      - name: "hero2"
+        label: "Hero2"
+        file: "src/data/Hero2.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          
       - name: "portfolio"
         label: "Portfolio"
         file: "src/data/Portfolio.yml"
@@ -74,3 +81,17 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
+      - name: "team"
+        label: "Team"
+        file: "src/data/Team.yml"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Team" }
+          - name: "items"
+            label: "Team"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Job Title", name: "jobTitle", widget: "string" }              
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "LinkedIn", name: "linkedin", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
