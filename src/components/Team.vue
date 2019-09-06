@@ -2,29 +2,14 @@
   <div class="Team__Content">
 		<h1>{{ Team.title }}</h1>
 
-		<div class="people" v-for="item in Team.items" :key="item.item">
-			<div class="person">
+		<div class="row people" v-for="item in Team.items" :key="item.item">
+			<div class="col-sm person">
 				 <div class="name">{{item.name}}</div>
 				 <div class="jobtitle">{{item.jobTitle}}</div>				 
 				  <g-image immediate="true" :src="'/images/team/' + item.image" width="300" height="300" fit="contain"/>
 			</div>		
 		</div>
 
-<!-- 
-		<ul>
-			 <li v-for="item in Team.items" :key="item.item">
-				 {{item.item}}			
-      		</li>
-
-		</ul>		 -->
-		
-    <!-- <ul class="Hero__Content__Icons">
-      <li v-for="item in Team.items" :key="item.name">
-        <a :href="item.link">
-          <g-image immediate="true" :alt="item.name" :src="'/images/' + item.name + '.svg'" />
-        </a>
-      </li>
-    </ul> -->
   </div>
 </template>
 
@@ -49,5 +34,7 @@
 	.person
 		img
 			width: 300px
+		.jobtitle
+			text-transform: uppercase
 		
 </style>
