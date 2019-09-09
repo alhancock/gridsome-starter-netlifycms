@@ -40,6 +40,10 @@
 	text-align: center
 	margin: 30px 0
 
+	li
+		font-weight: bold
+		font-size: 20px
+
 	.Hero__Content__Icons
 		margin-top: 30px
 		display: flex
@@ -47,7 +51,7 @@
 
 		li
 			padding: 0 10px
-			display: flex
+			display: flex			
 
 			a
 				display: flex
